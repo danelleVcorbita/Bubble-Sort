@@ -1,0 +1,7 @@
+version: "Swift version 5.6.1 (swift-5.6.1-RELEASE)"
+options: "bb4a94a12ff7ec22b2e1f1ade65daf121ef7715d8d60c7fdd4f1dc513cb662d4"
+build_start_time: [1665102541, 936794996]
+build_end_time: [1665102542, 99462985]
+inputs:
+  "/home/danelle-corbita/Projects/BubbleSort/intSort.swift": !private [1665102488, 273231983]
+  "/home/danelle-corbita/Projects/BubbleSort/main.swift": !private [1665100672, 19198656]

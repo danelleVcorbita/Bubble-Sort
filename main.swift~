@@ -1,0 +1,30 @@
+var sortedIntegers = unsortedIntegers
+func swap(integers: inout [Int], firstIndex: Int, secondIndex: Int) {
+    let heldValue = integers[firstIndex]
+    integers[firstIndex] = integers[secondIndex]
+    integers[secondIndex] = heldValue
+}
+
+func bubbleSort(array: inout [Int]){
+    var isSorted = false
+    var pass = 0
+    var swaps = 0
+    var totalSwaps = 0
+    print("Pass: \(pass), Swaps: \(swaps)/\(totalSwaps), Array: \(array)")
+    while (!isSorted) {
+        swaps = 0
+        pass += 1
+        for x in 0..<array.count-1 {
+            if (array[x] > array[x + 1]) {
+                swap(integers: &array, firstIndex: x, secondIndex: x + 1)
+                swaps += 1                
+            }
+        }
+        totalSwaps += swaps
+        if (swaps==0) {
+            isSorted = true
+        }
+        print("Pass: \(pass), Swaps:\(swaps)/\(totalSwaps), Array: \(array)")
+    }    
+}
+bubbleSort(array: &sortedIntegers)

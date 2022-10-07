@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/home/danelle-corbita/Projects/BubbleSort/.build/x86_64-unknown-linux-gnu/debug/Simple.build/master.swiftdeps"
+  },
+  "/home/danelle-corbita/Projects/BubbleSort/intSort.swift": {
+    "dependencies": "/home/danelle-corbita/Projects/BubbleSort/.build/x86_64-unknown-linux-gnu/debug/Simple.build/intSort.d",
+    "object": "/home/danelle-corbita/Projects/BubbleSort/.build/x86_64-unknown-linux-gnu/debug/Simple.build/intSort.swift.o",
+    "swiftmodule": "/home/danelle-corbita/Projects/BubbleSort/.build/x86_64-unknown-linux-gnu/debug/Simple.build/intSort~partial.swiftmodule",
+    "swift-dependencies": "/home/danelle-corbita/Projects/BubbleSort/.build/x86_64-unknown-linux-gnu/debug/Simple.build/intSort.swiftdeps"
+  },
+  "/home/danelle-corbita/Projects/BubbleSort/main.swift": {
+    "dependencies": "/home/danelle-corbita/Projects/BubbleSort/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main.d",
+    "object": "/home/danelle-corbita/Projects/BubbleSort/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main.swift.o",
+    "swiftmodule": "/home/danelle-corbita/Projects/BubbleSort/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main~partial.swiftmodule",
+    "swift-dependencies": "/home/danelle-corbita/Projects/BubbleSort/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main.swiftdeps"
+  }
+}
