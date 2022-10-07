@@ -22,7 +22,7 @@ for _ in 0...array.count {
     for value in 1...array.count - 1 {
         if array[value-1] > array[value] {
             let largerInt = array[value-1]            
-            let largerString = unsortedstring[value-1]
+            let largerString = unsortedString[value-1]
             unsortedString[value-1] = unsortedString[value]
             unsortedString[value] = largerString
 
@@ -31,3 +31,4 @@ for _ in 0...array.count {
         }
     }
 }
+print(array, unsortedString)
